@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Event {
+public class Event implements FileTypeInterface, MediaInterface{
     private String  eventName;
     private Date eventDate;
     private String eventLocation;

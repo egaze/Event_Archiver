@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Pictures {
+public class Pictures implements FileTypeInterface, IDInterface, MediaInterface{
     private int id;
     private String eventName;
     private Date eventDate;

@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Magazine {
+public class Magazine implements IDInterface, MediaInterface{
     private int id;
     private String title;
     private String eventName;

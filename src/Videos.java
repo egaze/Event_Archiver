@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Videos {
+public class Videos implements FileTypeInterface, IDInterface, MediaInterface{
     private int id;
     private String eventName;
     private Date eventDate;

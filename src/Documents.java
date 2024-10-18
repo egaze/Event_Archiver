@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Documents {
+public class Documents implements MediaInterface, IDInterface, FileTypeInterface{
     private int id;
     private String eventName;
     private Date eventDate;
