@@ -3,14 +3,14 @@ import java.util.Date;
 public class Videos {
     private int id;
     private String eventName;
-    private String eventDate;
+    private Date eventDate;
     private String eventLocation;
     private String title;
     private Date datePosted;
     private String type;
     private int numberOfFrames;
 
-    public Videos(int id, String eventName, String eventDate, String eventLocation, String title, Date datePosted, String type, int numberOfFrames) {
+    public Videos(int id, String eventName, Date eventDate, String eventLocation, String title, Date datePosted, String type, int numberOfFrames) {
         this.id = id;
         this.eventName = eventName;
         this.eventDate = eventDate;
@@ -33,7 +33,7 @@ public class Videos {
         return eventName;
     }
 
-    public String getEventDate() {
+    public Date getEventDate() {
         return eventDate;
     }
 

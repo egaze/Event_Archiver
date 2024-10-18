@@ -4,11 +4,11 @@ public class Newspaper {
     private int id;
     private String title;
     private String eventName;
-    private String eventDate;
+    private Date eventDate;
     private String eventLocation;
     private Date publishedDate;
 
-    public Newspaper(String title, String eventName, String eventDate, String eventLocation, Date publishedDate) {
+    public Newspaper(String title, String eventName, Date eventDate, String eventLocation, Date publishedDate) {
         this.title = title;
         this.eventName = eventName;
         this.eventDate = eventDate;
@@ -27,11 +27,15 @@ public class Newspaper {
         return eventName;
     }
 
-    public String getEventDate() {
+    public Date getEventDate() {
         return eventDate;
     }
 
     public String getEventLocation() {
         return eventLocation;
+    }
+
+    public Date getPublishedDate() {
+        return publishedDate;
     }
 }
